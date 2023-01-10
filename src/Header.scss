@@ -1,0 +1,35 @@
+
+
+.con{
+    border: solid red 1px;
+    background-color:black;
+    width: 100%;
+  
+}
+.box{
+    margin-top: 0;
+    padding: 15px;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-between;
+    .box1{
+        position:relative;
+        // left: 20px;
+        // top:-35px;
+    }
+.pages{
+display: flex;
+gap: 20px;
+li{
+    list-style: none;
+   
+}
+
+}
+}
+
+
+
+
+
