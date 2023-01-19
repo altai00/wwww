@@ -3,7 +3,9 @@ import  './Header.scss';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logos from './img/logos.png';
-import './Karusel'
+import {FaShoppingCart} from 'react-icons/fa'
+import {FaSearch} from 'react-icons/fa'
+import Karusel from './ControlledCarousel'
 function App() {
   return (
     <div className='Header'>
@@ -12,23 +14,23 @@ function App() {
       
    <img className='box1' src={logos} alt/>
    <div className='pages'>
-   <li>HOME</li>
-   <li>ABOUTE</li>
-   <li>SERVICES</li>
-   <li>PAGES</li>
-   <li>SHOP</li>
-   <li>BLOG</li>
-   <li>CONTACT</li>
+   <li className='lil'>HOME</li>
+   <li className='lil'>ABOUTE</li>
+   <li className='lil'>SERVICES</li>
+   <li className='lil'>PAGES</li>
+   <li className='lil'>SHOP</li>
+   <li className='lil'>BLOG</li>
+   <li className='lil'>CONTACT</li>
+   <p><FaSearch/></p>
+   <p><FaShoppingCart/></p>
    <li></li>
-   <li></li>
-   <li></li>
-   <li>SIGN IN</li>
+   <li className='box3'>SIGN IN</li>
    </div>
      
     </div>
     </header>
-    <div>
-    <Karusel/>
+    <div className='karusel'>
+  <Karusel/>
 
     </div>
     
