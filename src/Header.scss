@@ -1,35 +1,147 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.con{
-    border: solid red 1px;
-    background-color:black;
-    width: 100%;
-  
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
-.box{
-    margin-top: 0;
-    padding: 15px;
+.con {
+
+   
+    width: 100%;
     display: flex;
-    color:white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-right: 60px;
+    color: white;
+}
+
+.box {
+    background-color: rgb(5, 5, 5);
+    opacity:0.7;
+   
+    margin-top: 0;
+
+    display: flex;
+    
     align-items: center;
     justify-content: space-between;
-    .box1{
-        position:relative;
+
+    .box1 {
+        position: relative;
         // left: 20px;
         // top:-35px;
     }
-.pages{
-display: flex;
-gap: 20px;
-li{
-    list-style: none;
-   
-}
+
+    .pages {
+        display: flex;
+        gap: 50px;
+
+        li {
+            list-style: none;
+
+        }
+
+        .box3 {
+            z-index: 1;
+            position: relative;
+
+            &::before {
+
+                content: "";
+                position: absolute;
+                top: -10px;
+                left: -40px;
+                width: 150px;
+                height: 50px;
+                background-color: #878244;
+                transform: skew(-23deg);
+                z-index: -1;
+
+            }
+        }
+    }
 
 }
+
+.karusel {
+    position: absolute;
+    top: -30px;
+    z-index: -1;
+
+    // .boy{
+    //     font-size: 54px;
+    //     font-weight: 900;
+       
+    //     margin-top: -400px;
+       
+    // }
+    // .boy1{
+    //     margin-left: -700px;
+    // }
+    // .sad{
+    //     display: flex;
+    //     gap: 40px;
+       
+    //     width: 330px;
+    //     height: 50px;
+    //     font-size: 18px;
+    //     z-index: 1;
+    //     position: relative;
+
+    //     &::before {
+
+    //         content: "";
+    //         position: absolute;
+    //         top: -10px;
+    //         left: -40px;
+    //         width: 150px;
+    //         height: 50px;
+    //         background-color: #878244;
+    //         transform: skew(-23deg);
+    //         z-index: -1;
+
+        // }
+        
+        
+    }
+// }
+
+// .img1{
+// width:100%;
+// height:100%;
+// }
+.pages {
+    .lil {
+        padding: 10px;
+position: relative;
+        &:hover {
+           
+
+
+            content: "";
+
+            
+           
+            z-index: -1;
+            &::before {
+
+                content: "";
+                position: absolute;
+               
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 50px;
+                background-color: #878244ff;
+                transform: skew(-23deg);
+                z-index: -1;
+                opacity: 1;
+
+            }
+        }
+    }
 }
-
-
-
-
-
