@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
@@ -21,6 +20,8 @@
 
 .box {
     background-color: rgb(5, 5, 5);
+    
+    z-index: 2;
     opacity:0.7;
    
     margin-top: 0;
@@ -48,13 +49,43 @@
         .box3 {
             z-index: 1;
             position: relative;
+            top: 10px;
+            &:hover {
+           
+
+
+                content: "";
+    
+                
+               
+                z-index: 23;
+                &::after {
+    
+                    content: "";
+                    position: absolute;
+                    left: -51px;
+                    top: -12px;
+
+                   padding: 28px 80px;
+                   z-index: -1;
+                    
+                    
+                   
+                   
+                    background-color:rgb(0, 0, 0);
+                    transform: skew(-23deg);
+                   
+    
+                }
+            }
+            
 
             &::before {
 
                 content: "";
                 position: absolute;
                 top: -10px;
-                left: -40px;
+                left: -50px;
                 width: 150px;
                 height: 50px;
                 background-color: #878244;
@@ -76,24 +107,161 @@
         font-size: 54px;
         font-weight: 900;
        
-        margin-top: -400px;
+        margin-top: -300px;
+        font-family: 'Audiowide', cursive;
        
     }
     .boy1{
         margin-left: -700px;
+        position: relative;
+        top: -20px;
+        left: -90px;
+     
+        
+
+    }
+    .npi{
+        text-align: start;
+        margin-left: 600px;
     }
     .sad{
         display: flex;
-        gap: 40px;
-        border: solid;
+        gap:80px;
         width: 330px;
         height: 50px;
         font-size: 18px;
+        padding: 10px;
+        position: relative;
+
         
+               
+                    &::before{
         
+                        content: "";
+                        
+                        border: solid #878244ff 2px; 
+                        
+                        padding: 25px 155px;
+                        transform: skew(-23.5deg);
+                        z-index: -0;
+                        position: absolute;
+                        left: -29px;
+                        top: -2px;
+                        z-index: -0;
+                        
+                     
+        
+                    }
+                    
+                }
+        
+                .sad1{
+                    margin-left: 450px;
+                    margin-top: 30px;
+                }
+        .boy2{
+            position: relative;
+            top: -100px;
+        }
+    }.bo{
+        text-align: center;
+        position: relative;
+        top: -30px;
+        margin-top: -40px;
+    }
+    .vox{
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: -20px;
+        left: -40px;
+        text-align: start;
+    }
+    
+
+    .npx{
+        
+        z-index: 1;
+        position: relative;
+        &:hover {
+       
+    
+    
+            content: "";
+    
+            
+           
+          
+            &::after {
+    
+                content: "";
+                position: absolute;
+                left: -41px;
+                top: -12px;
+    
+               padding: 27px 79px;
+               z-index: -1;
+                
+                
+               
+               
+                background-color:#878244;
+                transform: skew(-23deg);
+               
+    
+            }
+        }
+    }    
+    .npm {
+        z-index: 1;
+            position: relative;
+            &:hover {
+           
+
+
+                content: "";
+    
+                
+               
+                z-index: 23;
+                &::after {
+    
+                    content: "";
+                    position: absolute;
+                    left: -41px;
+                    top: -12px;
+
+                   padding: 28px 79px;
+                   z-index: -1;
+                    
+                    
+                   
+                   
+                    background-color:black;
+                    transform: skew(-23deg);
+                   
+    
+                }
+            }
+
+            &::before {
+
+                content: "";
+                position: absolute;
+                top: -10px;
+                left: -40px;
+                width: 160px;
+                height: 50px;
+                background-color: #878244;
+                transform: skew(-23deg);
+                z-index: -1;
+
+               
+
+            }
         
     }
-}
+
 
 // .img1{
 // width:100%;
@@ -118,7 +286,7 @@ position: relative;
                 position: absolute;
                
                 top: 0;
-                left: 0;
+                left:0px;
                 width: 100%;
                 height: 50px;
                 background-color: #878244ff;
@@ -129,4 +297,8 @@ position: relative;
             }
         }
     }
+ 
+
+
+
 }
