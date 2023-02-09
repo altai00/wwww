@@ -1,0 +1,92 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300&display=swap');
+
+
+
+
+
+
+.ahref{
+  font-size: 32px;
+  color: white;
+ 
+position: relative;
+left: 800px;
+top: 400px;
+&:hover{
+cursor: pointer;
+    position: relative;
+    content: "";
+    &::after{
+        content: "";
+        border: solid 3px #878244;
+        padding: 60px 60px;
+        position: absolute;
+        left:-45px;
+        top: -40px;
+
+        transform: skew(24deg);
+
+    }
+
+}
+&::after{
+content: "";
+border: solid 3px #878244;
+padding: 60px 60px;
+position: absolute;
+left:-45px;
+top: -40px;
+
+transform: skew(-24deg);
+
+
+}
+}
+.zaibal{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 500px;
+    left: 500px;
+    .new{
+        border: solid #878244;
+        padding: 20px 20px;
+        background-color: #878244;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 90px;
+
+    }
+    .opp{
+        border-top-left-radius:0px;
+
+
+        border-bottom-right-radius: 90px;
+
+    }
+    .gun{
+
+       color: white; 
+       font-family: 'Audiowide', cursive;
+    }
+}
+.soon{
+    text-align: center;
+    color: white;
+    font-size:190px;
+    font-family: 'Audiowide', cursive;
+    margin-top: 500px;
+    opacity:0.2;
+}
+.fff{
+    width: 30px;
+    height: 30px;
+ border: solid rgb(0, 255, 136);
+ border-radius: 50px;
+ background-color: white;
+ 
+    
+}
