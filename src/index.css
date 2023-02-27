@@ -45,8 +45,8 @@ padding-bottom: 0;
  border: solid rgb(19, 16, 16);
  padding: 5px 10px;
  background-color: #1d1d1459;
- margin-bottom: 20px;
-margin-left: 35px;
+ 
+margin-left: 10px; 
 
 }
 .shop-cart .empty h2{
@@ -89,7 +89,7 @@ main .item {
   top: 905px;
   border-bottom: solid 0.1px rgb(255, 253, 253);
   border-top: solid 0.1px rgb(255, 253, 253);
-  min-width: 420px;
+  min-width: 475px;
   height: 200px;
   background: rgb(37, 36, 36);
   justify-content: space-between;
@@ -192,7 +192,7 @@ height: 380px;
   color: #525252;
   position: relative;
   top: -335px;
-  left: 30px;
+  left: px;
   font-family:'Audiowide', cursive ;
 
 }
@@ -206,7 +206,7 @@ height: 380px;
   color: #878244;
   position: relative;
   top: -380px;
-  left: 770px;
+  left: 850px;
   font-family:'Audiowide', cursive ;
   }
  

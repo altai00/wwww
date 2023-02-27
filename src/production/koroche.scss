@@ -3,7 +3,7 @@
     gap: 20px;
     position: relative;
     top: 100px;
-    left: 600px;
+    left: 730px;
     .workp{
         border: solid #878244;
         padding: 20px 20px;
@@ -44,7 +44,8 @@
     
     padding: 50px 100px;
     position: relative;
-    
+
+   
     
 
    &::after{ content: "";
@@ -89,6 +90,8 @@ transform: rotate(5deg);}
     
     padding: 50px 100px;
     position: relative;
+     margin-left: 30px;
+    
 
 &::after{
     content: "";

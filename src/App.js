@@ -138,7 +138,8 @@ class App extends React.Component {
 <Devs devs={this.state.devs} onAdd={this.addToOrder}/>
 
 <div className='accardeon'>
-<div className='container dep'><Treti/>
+<div className='container dep'>
+  <Treti/>
 
 </div>
 </div>

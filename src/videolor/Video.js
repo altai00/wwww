@@ -14,7 +14,7 @@ function Video() {
  <a className='ahref' href={Link} download><img className='fff' src={Play}/></a>   
 
 
-<div className='zaibal'>
+<div className='zaal'>
     <p className='new opp'></p>
     <h1 className='gun'>New MC7 Carbine Gun</h1>
     <p className='new'></p>
