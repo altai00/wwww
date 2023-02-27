@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300&display=swap");
+.deu {
+  margin: auto;
+  margin-top: 125px;
+  width: 900px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.145);
+  border: solid;
+  webkit-clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 100%, 10% 100%);
+}
+
+.deu1 {
+  border: solid #878244ff;
+  width: 60px;
+  height: 30px;
+  webkit-clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+  background-color: #878244ff;
+  margin-left: 60px;
+  margin-top: 46px;
+}
+
+.deu2 {
+  width: 580px;
+  height: 250px;
+  text-align: start;
+  margin-left: 150px;
+  color: white;
+  margin-top: -60px;
+}
+
+.deu3 {
+  font-family: "Audiowide", cursive;
+  margin-bottom: 48px;
+}
+
+.deu5 {
+  margin-top: 70px;
+  color: #fcf9f9;
+  position: relative;
+  left: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  z-index: 9;
+  position: relative;
+}
+.deu5::before {
+  content: "";
+  border: solid #878244 2px;
+  background-color: #878244;
+  padding: 25px 90px;
+  position: absolute;
+  left: -30px;
+  top: -10px;
+  z-index: -1;
+  transform: skew(-22deg);
+}
+.deu5:hover {
+  content: "";
+  position: relative;
+  cursor: pointer;
+}
+.deu5:hover::after {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: -10px;
+  border: solid #010000;
+  padding: 26px 92px;
+  transform: skew(-22deg);
+  background-color: #080000;
+  z-index: -1;
+}

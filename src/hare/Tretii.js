@@ -3,8 +3,9 @@ import Accordion from 'react-bootstrap/Accordion';
 import './tretii.scss'
 import Swaiper from '../componenter/Swaiper'
 import './den.css'
-
-
+import {BsFillCalendarCheckFill} from 'react-icons/bs'
+import {AiOutlineClockCircle} from 'react-icons/ai'
+import {FaMapMarkerAlt} from 'react-icons/fa'
     
 
 function Tretii() {
@@ -20,9 +21,21 @@ function Tretii() {
 
 
 
-<Accordion defaultActiveKey={['0']} alwaysOpen>
+<Accordion id='fan2' defaultActiveKey={['0']} alwaysOpen>
       <Accordion.Item eventKey="0" id='fan1' >
-        <Accordion.Header id='fan2'>Accordion Item #1</Accordion.Header>
+        <Accordion.Header>
+          <div className='fan2'>
+          <h1 className='accardion-h1'>Modern Weapon Trainning Seminar</h1>
+          <div className='accardion-div'>
+           <div className='lidiv'> <li><BsFillCalendarCheckFill/></li>
+            <li>July 25, 2022</li></div>
+            <div className='lidiv'><li><AiOutlineClockCircle/></li>
+            <li>EST 11.00 to 5.00 </li></div>
+          <div className='lidiv'>  <li><FaMapMarkerAlt/></li>
+            <li>121, King Street, Melbourne</li></div>
+          </div>
+          </div>
+          </Accordion.Header>
         <Accordion.Body>
         <p className="swipd">Weaponts can appreciate our broad services akshay handge pharetra, eratd fermentum feugiat, gun are best velit mauris aks <br/> egestasut aliquam. This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem <br/> quis bibendum auctor. Read More
 
@@ -31,8 +44,18 @@ function Tretii() {
           <Swaiper/>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+      <Accordion.Item eventKey="1" id='fan1'>
+        <Accordion.Header><div className='fan2'>
+          <h1 className='accardion-h1'>Modern Weapon Trainning Seminar</h1>
+          <div className='accardion-div'>
+           <div className='lidiv'> <li><BsFillCalendarCheckFill/></li>
+            <li>July 25, 2022</li></div>
+            <div className='lidiv'><li><AiOutlineClockCircle/></li>
+            <li>EST 11.00 to 5.00 </li></div>
+          <div className='lidiv'>  <li><FaMapMarkerAlt/></li>
+            <li>121, King Street, Melbourne</li></div>
+          </div>
+          </div></Accordion.Header>
         <Accordion.Body>
         <p className="swipd">Weaponts can appreciate our broad services akshay handge pharetra, eratd fermentum feugiat, gun are best velit mauris aks <br/> egestasut aliquam. This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem <br/> quis bibendum auctor. Read More
 
@@ -41,8 +64,18 @@ function Tretii() {
           <Swaiper/>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="2">
-        <Accordion.Header>Accordion Item #3</Accordion.Header>
+      <Accordion.Item eventKey="2" id='fan1'>
+        <Accordion.Header><div className='fan2'>
+          <h1 className='accardion-h1'>Modern Weapon Trainning Seminar</h1>
+          <div className='accardion-div'>
+           <div className='lidiv'> <li><BsFillCalendarCheckFill/></li>
+            <li>July 25, 2022</li></div>
+            <div className='lidiv'><li><AiOutlineClockCircle/></li>
+            <li>EST 11.00 to 5.00 </li></div>
+          <div className='lidiv'>  <li><FaMapMarkerAlt/></li>
+            <li>121, King Street, Melbourne</li></div>
+          </div>
+          </div></Accordion.Header>
         <Accordion.Body>
         <p className="swipd">Weaponts can appreciate our broad services akshay handge pharetra, eratd fermentum feugiat, gun are best velit mauris aks <br/> egestasut aliquam. This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem <br/> quis bibendum auctor. Read More
 

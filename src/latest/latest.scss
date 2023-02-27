@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300&display=swap');
+
+
+
+
+
+
+
+
+// .late1{
+  
+// }
+
+.late3{
+    
+   width: 50px;
+   height: 30px;
+    background: #878244;
+    -webkit-clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+}
+.late5{
+    width: 50px;
+    height: 30px;
+    background: #878244;
+    -webkit-clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+}
+.late2{
+    display: flex;
+    text-align: center;
+    margin-left: 670px;
+    margin-top: 40px;
+    gap: 20px;
+    color:white;
+}
+.late4{
+    margin-top: -10px;
+    font-family: 'Audiowide', cursive;
+
+}
+.late6{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.lattes{
+    width: 1350px;
+    height: 450px;
+   
+    margin-left: 170px;
+    margin-top: 130px;
+    display: flex;
+
+}
+.lattes1{
+    width: 600px;
+    height: 450px;
+    // border: solid ;
+    background:  linear-gradient(90deg, rgba(2, 0, 0, 0.554) 12%, rgba(1, 0, 3, 0.179) 90%), url(./latest.jpeg) ;
+}
+.lattes2{
+    color: #878244;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.lattes3{
+    
+    margin-left: 520px;
+    margin-top: -40px;
+    border: solid 2px #878244;
+    padding: 10px 14px;
+    position: absolute;
+    transform: skew(-23deg);
+   &:hover{
+    cursor: pointer;
+    background-color: #878244;
+    transition: 2s;
+   }
+}
+.lattes4{
+    margin-top: 285px;
+    margin-left: 10px;
+}
+.latte-span{
+    color: #878244;
+}
+.lattes5{
+font-size: 18px;
+color: white;
+margin-left: 5px;
+}
+.lattes6{
+    font-size: 24px;
+    color: white;
+    font-family: 'Audiowide', cursive;
+}
+.lattes7{
+    color: #878244;
+}
+.latte{
+    border: solid ;
+    width: 350px;
+    height: 400px;
+}
+.latte1{
+border-bottom: solid;
+}
+.latte2{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #878244;
+    
+}
+.latte4{
+    color: white;
+    font-size: 34px;
+    margin-top: 20px;
+    font-family: 'Audiowide', cursive;
+}
+.latte5{
+    color: white;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.latte6{
+    color: #878244;
+    margin-right: 10px;
+}
+.latte7{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #878244;
+
+}
+.latte8{
+    color: white;
+    
+}
+.latte-glavnyi{
+    margin-left: 100px;
+    display: flex;
+}

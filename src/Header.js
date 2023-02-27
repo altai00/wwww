@@ -10,7 +10,8 @@ import { FaSearch } from 'react-icons/fa'
 import Karusel from './ControlledCarousel'
 import Order from './Order';
 import Buton from './Buton.js'
-
+import Contact from './contact/Contact.js'
+let zakaz = <Contact/>
 const showOrders = (props) => {
     let summa = 0
 
@@ -21,7 +22,10 @@ const showOrders = (props) => {
         {props.orders.map(el => (
         <Order onDelete={props.onDelete} key={el.id} item={el}/>
     ))}
-    <p className='summa'>Сумма: { summa} $</p>
+    <p className='summa'>Сумма: { summa} $  
+    <a className='zakaza' href={zakaz}>Заказать</a></p>
+    {/* <p className='contact'> {zakaz}Заказать</p> */}
+    
     </div>)
 }
 const showNothing = () => {
@@ -47,7 +51,7 @@ function Header(props) {
                         <li className='lil'>BLOG</li>
                         <li className='lil'>CONTACT</li>
                         
-                        <p><FaSearch /></p>
+                        
                         <p><FaShoppingCart onClick={() => setCartOpen(cartOpen = !cartOpen)} className={`shop-cart-button ${cartOpen && 'active'}`} />
                             {cartOpen && (
                                 <div className='shop-cart'>

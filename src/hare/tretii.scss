@@ -38,9 +38,14 @@ left: 440px;
 }
 }
 #fan1{
+  
     background-color:#111;
     color: white;
+    margin-top: 40px;
+
 }
+
+ 
 div .swiper-button-next{
     // position: absolute;
     // top: var(--swiper-navigation-top-offset,50%);
@@ -57,8 +62,28 @@ div .swiper-button-next{
     // border: solid red;
 
 }
-.vito {
-        border: solid red;
 
-    }
-  
+  li{
+    color: rgb(255, 252, 252);
+    list-style: none;
+    
+  }
+  .accardion-div{
+
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+  }
+.lidiv{
+    display: flex;
+    gap: 10px;
+}
+.accardion-h1{
+    color: #878244ff;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left:30px;
+    font-size: 24px;
+    font-family: 'Audiowide', cursive;
+}

@@ -18,6 +18,7 @@ top: 10px;
    margin: auto;
    margin-bottom: 30px;
    
+   
     
 
   }
@@ -46,20 +47,23 @@ top: 10px;
 
 
     &::after{
+      color: rgb(60, 72, 31);
         content: "";
-        background-color: red;
+        background-color: rgb(117, 118, 116);
         z-index: +1;
         position: relative;
         top: -40px;
         left:20px;
+        overflow: hidden;
     }
   }
   .swiper-button-prev{
 
 
     &::after{
+      color: rgb(60, 79, 43);
         content: "";
-        background-color: red;
+        background-color: rgb(117, 119, 115);
         z-index: +1;
         position: relative;
         top: 10px;
