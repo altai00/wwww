@@ -306,8 +306,19 @@ padding-bottom: 0;
 
 }
 
-@media screen (max-width:1440px;){
+@media(max-width:1440px){
+  main .item {
+    width: 10%;
+  position: relative;
+  top: 905px;
+  border-bottom: solid 0.1px rgb(255, 253, 253);
+  border-top: solid 0.1px rgb(255, 253, 253);
+  min-width: 405px;
+  height: 200px;
+  background: rgb(37, 36, 36);
   
-  
+  margin-bottom: 50px;
+  }
+
   
 }

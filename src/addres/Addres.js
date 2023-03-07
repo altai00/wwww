@@ -16,6 +16,7 @@ function Addres() {
 <p className='add5'>P. : + 123 456 789</p>
 <p className='add6'>E. : weapon@example.com</p>
 
+    
 </div>
 </div>
 
