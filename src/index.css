@@ -78,7 +78,7 @@ color: rgb(26, 255, 0);
   display: flex;
  
   width: 100%;
-  flex-wrap: wrap;
+  
   color: white;
   opacity: 0.8;
   
@@ -89,7 +89,7 @@ main .item {
   top: 905px;
   border-bottom: solid 0.1px rgb(255, 253, 253);
   border-top: solid 0.1px rgb(255, 253, 253);
-  min-width: 475px;
+  min-width: 420px;
   height: 200px;
   background: rgb(37, 36, 36);
   justify-content: space-between;
@@ -206,7 +206,7 @@ height: 380px;
   color: #878244;
   position: relative;
   top: -380px;
-  left: 850px;
+  left: 740px;
   font-family:'Audiowide', cursive ;
   }
  
