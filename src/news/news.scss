@@ -1,11 +1,212 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300&display=swap');
+
 
 
 
 .mail{
-    width: 00px;
-    height: 230px;
-    background-color: red;
+    width: 1300px;
+    height: 160px;
+    background-color: #878244;;
+  
+   margin-left: 300px;
+   webkit-clip-path: polygon(4% 0, 100% 0, 95% 100%, 0% 100%);
+   clip-path: polygon(4% 0, 100% 0, 95% 100%, 0% 100%);
+ .mail2{
+    width: 70px;
+    height: 70px;
+    color: rgb(50, 68, 28);
+    margin-left: 60px;
+    margin-top: 40px;
+ }
+ .mail3{
+    margin-left: 160px;
+    font-family: 'Audiowide', cursive;
+    font-size: 28px;
+    color: white;
+    margin-top: -78px;
+ }
+ .mail4{
+    margin-left: 160px;
+    margin-top: -7px;
+    color: #15151465;
+ }
+
 }
+.mail5{
+    display: flex;
+    
+    margin-left: 550px;
+    margin-top: -90px;
+}
+.input2{
+    color: rgb(23, 23, 24);
+    webkit-clip-path: polygon(0 0, 100% 0, 94.5% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 94.5% 100%, 0% 100%);
+    background-color: rgba(255, 255, 255, 0.1);
+   
+}
+.mail7{
+    color: white;
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    background-color: black;
+    margin-top: 20px;
+    padding: 14px 50px;
+}
+.glavnyi-divka-news{
+    display: flex;
+}
+.vybor{
+    width: 400px;
+    height: 370px;
+    border-bottom:solid ;
+    margin-top: 60px;
+    margin-left: 280px;
+    .vybor2{
+        margin-top: 50px;
+        color: white;
+    }
+    .vybor3{
+        margin-top: 60px;
+    color: #878244;
+    }
+}
+.vybor4{
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+.vybor5{
+    width: 40px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    -webkit-clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+    clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+    background: rgba(255, 255, 255, 0.1);
+    &:hover{
+        background-color: #878244;
+
+}}
+.news-div{
+    width: 400px;
+    height: 400px;
+  
+    margin-top: 110px;
+}
+.news-div1{
+    display: flex;
+    gap: 40px;
+}
+.news-p{
+    width: 50px;
+    height: 28px;
+    background: #878244;
+    -webkit-clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+}
+.news-p1{
+    font-size: 22px;
+    font-family: "Audiowide", cursive;
+    font-weight: 400;
+    color: #fff;
+}
+.news-img{
+margin-top: 60px;
+}
+.news-p2{
+    color: white;
+    transition: all 0.3s;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Audiowide", cursive;
+    font-size: 18px;
+}
+.news-div2{
+    
+    margin-left: 90px;
+    color: white;
+    margin-top: -90px;
+}
+.news-p4{
+    color: #878244;
+    margin-top: -15px;
+}
+.news-p3{
+    margin-top: -15px;
+}
+.product-div{
+    width: 400px;
+    height: 400px;
+  
+    margin-left: 1100px;
+    margin-top: -400px;
+    .product-div1{
+       
+        display: flex;
+        gap: 40px;
+    }
+    .product-p{
+        width: 50px;
+    height: 28px;
+    background: #878244;
+    -webkit-clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+    }
+    .product-p1{
+        font-size: 22px;
+    font-family: "Audiowide", cursive;
+    font-weight: 400;
+    color: #fff;
+    }
+    .product-div2{
+        display: flex;
+        margin-top: 60px;
+        gap: 20px;
+        
+    }
+    .product-p2{
+        color: white;
+        margin-top: 50px;
+    }
+    .product-p3{
+        margin-top: 50px;
+        display: inline-block;
+    position: relative;
+    padding: 0 60px;
+    line-height: 50px;
+    height: 50px;
+    background: #878244;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    text-transform: capitalize;
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    &:hover{
+        background: #111;
+    color: #fff;
+}
+    }
+    }
+    .dash{
+        display: flex;
+        border: solid rgb(73, 73, 78);
+        width: 100%;
+        padding: 30px ;
+
+       
+        margin-top: 63px;
+        color:white;
+    }
+    .dashi{
+        display: flex;
+        gap: 40px;
+        margin-left: 500px;
+    }
