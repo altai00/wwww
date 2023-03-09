@@ -46,7 +46,7 @@ header {
 
     .pages {
         display: flex;
-        gap: 50px;
+        gap:50px;
 
         li {
             list-style: none;
@@ -432,4 +432,18 @@ header {
     margin-bottom: 456px;
     background-color: rgb(10, 9, 9);
 
+}
+@media screen and (max-width: 768px){
+    .box .pages{
+        font-size: 10px;
+gap: none;
+    
+       
+   
+       
+    }
+    .lil{
+        margin: 0;
+    }
+    
 }

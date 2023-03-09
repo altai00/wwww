@@ -46,7 +46,7 @@ function Header(props) {
                         <li className='lil'>HOME</li>
                         <li className='lil'>ABOUTE</li>
                         <li className='lil'>SERVICES</li>
-                        <li className=''><Buton/></li>
+                        <li className='lil'>PAGES</li>
                         <li className='lil'>SHOP</li>
                         <li className='lil'>BLOG</li>
                         <li className='lil'>CONTACT</li>
